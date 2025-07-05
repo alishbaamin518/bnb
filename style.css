@@ -7,44 +7,135 @@
 .main{
 
 }
-
 .top{
     background-color: black;
     color: white;
     width: 100vw;
-    height: 40px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
 }  
 /* ______________________________________________________navbar____________________________________ */
 .navmain{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100vw;
-    height: 500px;
+    height: 100px;
+    display: flex;
+    
+}
+.social{
+ /* background-color: rgb(226, 147, 57); */
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+ padding-left: 20px;
+ gap: 13px;
+}
+.logo{
+/* background-color: rgb(193, 135, 179); */
+ display: flex;
+ align-items: center;
+  flex-grow: 1;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ padding-left: 10px;
+}
+.user{
+/* background-color: rgb(89, 64, 64); */
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ padding-left: 400px ;
+ padding-right: 25px;
+ gap: 15px;
 }
 .facebook{
-    background-color: blue;
-  
+    /* background-color: blue; */
+  transition: padding-bottom 8s,;
 }
 .insta{
-    background-color: rgb(0, 255, 30);
+    /* background-color: rgb(0, 255, 30); */
+     transition: padding-bottom 8s,;
 }
 .youtube{
-    background-color: rgb(195, 0, 255);
+    /* background-color: rgb(195, 0, 255); */
+     transition: padding-bottom 8s,;
 }
 .tiktok{
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
+     transition: padding-bottom 8s,;
+}
+.facebook:hover{
+    padding-bottom: 10px;
+}
+.insta:hover{
+    padding-bottom: 10px;
+}
+.youtube:hover{
+    padding-bottom: 10px;
+}
+.tiktok:hover{
+    padding-bottom: 10px;
 }
 .bnblogo{
-    background-color: rgb(204, 255, 0);
+    /* background-color: rgb(204, 255, 0); */
 }
 .search{
-    background-color: rgb(255, 136, 0);
+    /* background-color: rgb(255, 136, 0); */
 }
 .account{
-    background-color: rgb(43, 255, 0);
+    /* background-color: rgb(43, 255, 0); */
 }
 .wishlist{
-    background-color: rgb(217, 0, 255);
+    /* background-color: rgb(217, 0, 255); */
+}
+.cart{
+    /* background-color: blue; */
+}
+/* ____________________________________________________________navsections______ */
+.mainnavsec{
+    background-color: aquamarine;
+    display: flex;
+}
+.list{
+    background-color: bisque;
+    display: flex;
+}
+.list li{
+    text-decoration: none;
+    text-transform: capitalize;
+    /* font-size: xx-large; */
+   justify-content: center;
+}
+.home{
+    background-color: rgb(28, 2, 52);
+}
+.arrival{
+    background-color: rgb(91, 12, 12);
+}
+.shopall{
+    background-color: rgb(123, 11, 65);
+}
+.skin{
+    background-color: rgb(96, 18, 120);
+}
+.hair{
+    background-color: rgb(27, 69, 114);
+}
+.bundel{
+    background-color: rgb(26, 112, 126);
+}
+.vitamin{
+    background-color: rgb(19, 111, 22);
+}
+.rice{
+    background-color: rgb(106, 116, 24);
+}
+.hcostumer{
+    background-color: rgb(240, 219, 62);
+}
+.blog{
+    background-color: rgb(226, 98, 43);
 }
