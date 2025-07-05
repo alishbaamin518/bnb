@@ -1,0 +1,17 @@
+@font-face {
+    font-family:Manrope;
+    src: url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+}
+*{
+    font-family: 'Manrope', sans-serif;
+}
+.mainnavsec{
+    font-style:normal;
+    font-size: small;
+}
+.top{
+   font-style:normal;
+    font-size:smaller; 
+    word-spacing: 1px;
+}
+

@@ -1,3 +1,4 @@
+@import url(font.css);
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -40,7 +41,7 @@
   flex-grow: 1;
  flex-wrap: wrap;
  justify-content: space-evenly;
- padding-left: 10px;
+ padding-left: 50px;
 }
 .user{
 /* background-color: rgb(89, 64, 64); */
@@ -81,6 +82,7 @@
 }
 .bnblogo{
     /* background-color: rgb(204, 255, 0); */
+    padding-left: 150px;
 }
 .search{
     /* background-color: rgb(255, 136, 0); */
@@ -96,20 +98,22 @@
 }
 /* ____________________________________________________________navsections______ */
 .mainnavsec{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: none; */
 }
-.list{
-    background-color: bisque;
+.ullist{
+    /* background-color: bisque; */
     display: flex;
+     list-style-type: none;
+     text-transform: capitalize;
+     gap: 40px;
+     
 }
-.list li{
-    text-decoration: none;
-    text-transform: capitalize;
-    /* font-size: xx-large; */
-   justify-content: center;
-}
-.home{
+/* .home{
     background-color: rgb(28, 2, 52);
 }
 .arrival{
@@ -138,4 +142,4 @@
 }
 .blog{
     background-color: rgb(226, 98, 43);
-}
+} */
